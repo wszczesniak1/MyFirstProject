@@ -14,6 +14,8 @@ public class Book {
         this.price = price;
     }
 
+    public int getPrice() {return this.price;}
+
     public String toString() {
         return "BOOK: " + title + " , price:" + String.valueOf(price);
     }
