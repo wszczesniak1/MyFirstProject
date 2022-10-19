@@ -2,11 +2,10 @@ package bookstore.entity;
 
 public class Book {
     private String title;
+
     private int price;
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+    public void setTitle(String title) { this.title = title; }
 
     public String getTitle() { return this.title;}
 
@@ -14,7 +13,7 @@ public class Book {
         this.price = price;
     }
 
-    public int getPrice() {return this.price;}
+    public int getPrice() { return this.price; }
 
     public String toString() {
         return "BOOK: " + title + " , price:" + String.valueOf(price);
